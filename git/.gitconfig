@@ -16,3 +16,5 @@
 [user]
 	name = flackner
 	email = fabian.lackner@gmail.com
+[init]
+	defaultBranch = main
