@@ -1,0 +1,46 @@
+{
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "terminal.integrated.scrollback": 1000000,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "search.searchEditor.defaultNumberOfContextLines": 0,
+  "editor.lineNumbers": "relative",
+  "workbench.reduceMotion": "off",
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.upWithFocus",
+      "sequence": [
+        {
+          "command": "list.focusUp"
+        },
+        {
+          "command": "list.selectAndPreserveFocus"
+        }
+      ]
+    },
+    {
+      "command": "multiCommand.downWithFocus",
+      "sequence": [
+        {
+          "command": "list.focusDown"
+        },
+        {
+          "command": "list.selectAndPreserveFocus"
+        }
+      ]
+    }
+  ],
+  "editor.smoothScrolling": true,
+  "workbench.iconTheme": "file-icons",
+  "editor.semanticHighlighting.enabled": true,
+  "workbench.colorTheme": "faybtheme",
+  "fayblook.distance": 20,
+  "fayblook.offset": 20,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+}
