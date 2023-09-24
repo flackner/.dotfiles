@@ -16,30 +16,10 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 fi
 ~/.fzf/install
 
-if [[ -e  ~/.tmux]]
+if [[ -e  ~/.config/nvim ]]
 then
-cd ~/.tmux
+cd ~/.config/nvim
 git pull
 else
-git clone https://github.com/gpakosz/.tmux.git
-ln -s -f .tmux/.tmux.conf
-cp .tmux/.tmux.conf.local .
+git clone --dipth 1 https://github.com/NvChad/NvChad.git ~/.config/nvim
 fi
-
-if [[ -e  ~/.faybmak ]]
-then
-cd ~/.faybmak
-git pull
-else
-git clone https://github.com/flackner/faybmak.git ~/.faybmak
-fi
-sudo ~/.faybmak/install.sh
-
-if [[ -e  ~/.faybextensions ]]
-then
-cd ~/.faybextensions
-git pull
-else
-git clone https://github.com/flackner/faybextensions.git ~/.faybextensions
-fi
-~/.faybextensions/install.sh
