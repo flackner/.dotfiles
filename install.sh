@@ -1,5 +1,3 @@
-# install fonts from https://www.nerdfonts.com/font-downloads (JetBrainsMono Nerd Font regular) (use libre word for preview)
-
 if [[ -e ~/.oh-my-zsh ]]
 then
 cd ~/.oh-my-zsh
