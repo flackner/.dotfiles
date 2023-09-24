@@ -3,7 +3,6 @@ update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-vir
 
 [1]
 Description=.*
-noborder=true
 noborderrule=4
 wmclassmatch=3
 

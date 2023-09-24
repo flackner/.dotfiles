@@ -41,6 +41,6 @@
   "workbench.colorTheme": "faybtheme",
   "fayblook.distance": 20,
   "fayblook.offset": 20,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "JetBrainsMono NF",
   "editor.fontLigatures": true,
 }

@@ -105,6 +105,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 alias cat="bat"
 alias ls="eza"
+alias tt="gio trash"
 alias ll="eza -alh"
 alias fdd="fd --hidden --no-ignore"
 alias rgg="rg --no-ignore --hidden"
