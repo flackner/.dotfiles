@@ -40,7 +40,10 @@ fi
 
 sudo zypper install code
 
+sudo zypper install mc
+
 stow git
 stow tmux
 stow zsh
 stow vscode
+stow mc
