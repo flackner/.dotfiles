@@ -38,7 +38,7 @@ else
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
 
-sudo zypper install vscode
+sudo zypper install code
 
 stow git
 stow tmux
