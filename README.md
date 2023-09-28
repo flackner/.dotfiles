@@ -1,7 +1,9 @@
 # .dotfiles
 
-install fonts from https://www.nerdfonts.com/font-downloads (JetBrainsMono Nerd Font regular) (use libre word for preview)
+install fonts from https://www.nerdfonts.com/font-downloads (JetBrainsMono Nerd Font regular)
+installed fonts can be previewed in libre writer
 
+install with:
 ```
-use stow git
+sudo ./install
 ```
