@@ -10,6 +10,7 @@ sudo zypper install eza
 sudo zypper install ripgrep
 sudo zypper install fd
 sudo zypper install bat
+sudo zypper install the_silver_searcher  
 git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
@@ -46,6 +47,7 @@ fi
 
 if [[ -e ~/.config/Code ]]
 then
+:
 else
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 sudo zypper addrepo https://packages.microsoft.com/yumrepos/vscode vscode
@@ -55,6 +57,7 @@ fi
 
 if [[ -e ~/.config/mc ]]
 then
+:
 else
 sudo zypper install mc
 fi

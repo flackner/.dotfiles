@@ -76,7 +76,8 @@ ZSH_THEME="eastwood"
 plugins=(
 # git
 # zsh-shift-select
-sudo 
+# sudo better than thefuck
+thefuck 
 web-search
 copydir
 copyfile
@@ -88,6 +89,7 @@ jsontools
 zsh-completions # 
 zsh-autosuggestions # adds last comment as grey extensions
 fast-syntax-highlighting
+# powerlevel10k
 # zsh-syntax-highlighting # this one is not as nice as fast...
 # zsh-autocomplete
 )
@@ -161,9 +163,9 @@ fi
 
 # settings
 set -o menucomplete
-setopt autopushd pushdminus pushdsilent pushdtohome pushdignoredups
+#setopt autopushd pushdminus pushdsilent pushdtohome pushdignoredups
 bindkey -M menuselect '^[[1;5C' forward-char
 bindkey -M menuselect '^[[1;5D' backward-char
-bindkey -s '^[[1;3C' 'popd ^M'
-bindkey -s '^[[1;3D' 'cd ..^M'
+#bindkey -s '^[[1;3C' 'popd ^M'
+#bindkey -s '^[[1;3D' 'cd ..^M'
 
