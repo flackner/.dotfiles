@@ -5,12 +5,12 @@ then
 cd ~/.oh-my-zsh
 git pull
 else
-sudo zypper install zsh
-sudo zypper install eza
-sudo zypper install ripgrep
-sudo zypper install fd
-sudo zypper install bat
-sudo zypper install the_silver_searcher  
+sudo zypper -n install zsh
+sudo zypper -n install eza
+sudo zypper -n install ripgrep
+sudo zypper -n install fd
+sudo zypper -n install bat
+sudo zypper -n install the_silver_searcher  
 git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
@@ -33,7 +33,7 @@ then
 cd ~/.config/nvim
 git pull
 else
-sudo zypper install neovim
+sudo zypper -n install neovim
 git clone --dipth 1 https://github.com/NvChad/NvChad.git ~/.config/nvim
 fi
 
@@ -42,7 +42,7 @@ then
 cd ~/.tmux/plugins/tpm
 git pull
 else
-sudo zypper install tmux
+sudo zypper -n install tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 fi
 
@@ -51,15 +51,15 @@ then
 :
 else
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-sudo zypper addrepo https://packages.microsoft.com/yumrepos/vscode vscode
-sudo zypper refresh
-sudo zypper install code
+sudo zypper -n addrepo https://packages.microsoft.com/yumrepos/vscode vscode
+sudo zypper -n refresh
+sudo zypper -n install code
 fi
 
 if [[ -e ~/.config/mc ]]
 then
 :
 else
-sudo zypper install mc
+sudo zypper -n install mc
 fi
 
