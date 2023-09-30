@@ -76,9 +76,18 @@ ZSH_THEME="eastwood"
 plugins=(
 # git
 # zsh-shift-select
-  zsh-completions # 
-  zsh-autosuggestions # adds last comment as grey extensions
-  fast-syntax-highlighting
+sudo 
+web-search
+copydir
+copyfile
+copybuffer
+dirhistory
+zsh-reload
+history
+jsontools
+zsh-completions # 
+zsh-autosuggestions # adds last comment as grey extensions
+fast-syntax-highlighting
 # zsh-syntax-highlighting # this one is not as nice as fast...
 # zsh-autocomplete
 )
