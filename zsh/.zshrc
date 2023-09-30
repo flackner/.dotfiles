@@ -76,14 +76,13 @@ ZSH_THEME="eastwood"
 plugins=(
 # git
 # zsh-shift-select
-# sudo better than thefuck
-thefuck 
+sudo
+# thefuck  
 web-search
-copydir
+copypath
 copyfile
 copybuffer
 dirhistory
-zsh-reload
 history
 jsontools
 zsh-completions # 
