@@ -17,3 +17,7 @@ git restore vscode
 stow --adopt mc
 cp -r mc mc_bak
 git restore mc
+
+stow --adopt kde
+cp -r kde kde_bak
+git restore kde
