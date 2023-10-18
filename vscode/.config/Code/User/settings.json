@@ -9,7 +9,6 @@
     "strings": false
   },
   "search.searchEditor.defaultNumberOfContextLines": 0,
-  "editor.lineNumbers": "relative",
   "workbench.reduceMotion": "off",
   "multiCommand.commands": [
     {
@@ -43,4 +42,7 @@
   "fayblook.offset": 20,
   "editor.fontFamily": "JetBrainsMono NF",
   "editor.fontLigatures": true,
+  "faybcontrol.distance": 20,
+  "faybcontrol.offset": 20,
+  "editor.minimap.enabled": false,
 }

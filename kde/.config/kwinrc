@@ -16,6 +16,9 @@ Id_8=81c5a460-4eb2-4056-b167-359d931ef5c1
 Number=8
 Rows=1
 
+[Effect-diminactive]
+Strength=10
+
 [Effect-overview]
 LayoutMode=0
 
@@ -31,6 +34,7 @@ Mode=Location
 
 [Plugins]
 desktopchangeosdEnabled=true
+diminactiveEnabled=true
 poloniumEnabled=true
 slideEnabled=false
 
@@ -68,7 +72,7 @@ tiles={"layoutDirection":"horizontal","tiles":[]}
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][60b1ec88-9b03-5c14-92d0-4340f455a9cd]
-tiles={"layoutDirection":"horizontal","tiles":[]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
 
 [Tiling][bd455426-91b5-5aa4-b78c-9e21c3c810ab]
 tiles={"layoutDirection":"horizontal","tiles":[]}
@@ -81,4 +85,5 @@ RollOverDesktops=true
 Scale=1
 
 [org.kde.kdecoration2]
+BorderSize=Oversized
 BorderSizeAuto=false

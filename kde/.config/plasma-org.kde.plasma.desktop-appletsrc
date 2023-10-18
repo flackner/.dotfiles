@@ -146,7 +146,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][31][Applets][45][Configuration]
-PreloadWeight=42
+PreloadWeight=34
 
 [Containments][31][Applets][46]
 immutability=1
@@ -276,7 +276,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][63][Applets][76][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][63][Applets][77]
 immutability=1
@@ -712,7 +712,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][86][Applets][100][Configuration]
-PreloadWeight=52
+PreloadWeight=44
 
 [Containments][86][Applets][101]
 immutability=1
@@ -819,4 +819,4 @@ knownItems=org.kde.plasma.pkupdates,org.kde.plasma.volume,org.kde.plasma.network
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/thunderbird-cheatsheet-1-2048.webp,0,488487fa-4da8-497b-a138-f21de7ecaa9f,desktop:/td1c_v5.8_1,0,7ae2277d-d52a-4cf6-b28d-a92eadf2c2df,desktop:/The One Page Linux Manual.pdf,0,488487fa-4da8-497b-a138-f21de7ecaa9f,desktop:/fwunixref.pdf,0,488487fa-4da8-497b-a138-f21de7ecaa9f
+screenMapping=desktop:/td1c_v5.8_1,0,7ae2277d-d52a-4cf6-b28d-a92eadf2c2df

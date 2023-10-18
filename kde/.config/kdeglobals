@@ -137,7 +137,7 @@ ForegroundVisited=155,89,182
 
 [DirSelect Dialog]
 DirSelectDialog Size=844,598
-History Items[$e]=file:$HOME/projects/cProjects/td1c,file:$HOME,file:$HOME/Downloads
+History Items[$e]=file:$HOME/Desktop,file:$HOME/projects/cProjects/td1c,file:$HOME,file:$HOME/Downloads
 
 [General]
 AllowKDEAppsToRememberWindowPositions=false

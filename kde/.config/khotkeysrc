@@ -1314,6 +1314,8 @@ Shortcut=
 activeBackground[$d]
 activeBlend[$d]
 activeForeground[$d]
+frame[$d]
 inactiveBackground[$d]
 inactiveBlend[$d]
 inactiveForeground[$d]
+inactiveFrame[$d]

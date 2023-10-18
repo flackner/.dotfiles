@@ -2,13 +2,17 @@
     {
         "key": "Tab",
         "command": "type",
-        "args": { "text": "" },
+        "args": {
+            "text": ""
+        },
         "when": "editorTextFocus"
     },
     {
         "key": "shift+Tab",
         "command": "type",
-        "args": { "text": "" },
+        "args": {
+            "text": ""
+        },
         "when": "editorTextFocus"
     },
     {
@@ -29,7 +33,9 @@
     {
         "key": "ctrl+[KeyY]",
         "command": "type",
-        "args": { "text": "\t" },
+        "args": {
+            "text": "\t"
+        },
         "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus"
     }
 ]

@@ -121,7 +121,7 @@ alias fdd="fd --hidden --no-ignore"
 alias rgg="rg --no-ignore --hidden"
 alias fzp="fzf --preview '([[ -f {} ]] && (bat --style=numbers --color=always {} || cat {})) || ([[ -d {} ]] && (tree -C {} | less)) || echo {} 2> /dev/null | head -200'"
 alias e="nvim"
-alias sysupdate="sudo zypper ref && sudo zypper up && sudo zypper dup"
+alias sysupdate="sudo zypper refresh && sudo zypper update" #dup?
 alias goto="cd -P"
 alias dots='/usr/bin/git --git-dir=/home/fabian/.dots/ --work-tree=/home/fabian'
 #pseudo alias grep="rg"
