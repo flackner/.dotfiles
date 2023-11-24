@@ -38,11 +38,12 @@
   "workbench.iconTheme": "file-icons",
   "editor.semanticHighlighting.enabled": true,
   "workbench.colorTheme": "faybtheme",
-  "fayblook.distance": 20,
-  "fayblook.offset": 20,
   "editor.fontFamily": "JetBrainsMono NF",
   "editor.fontLigatures": true,
   "faybcontrol.distance": 20,
   "faybcontrol.offset": 20,
   "editor.minimap.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "cmake.configureOnOpen": false,
+  "security.workspace.trust.enabled": false
 }

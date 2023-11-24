@@ -148,6 +148,7 @@ toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0,Regular
 [KDE]
 AnimationDurationFactor=0
 LookAndFeelPackage=org.kde.breezedark.desktop
+ShowDeleteCommand=false
 SingleClick=false
 
 [KFileDialog Settings]
@@ -172,6 +173,9 @@ View Style=DetailTree
 
 [KShortcutsDialog Settings]
 Dialog Size=1876,1051
+
+[PreviewSettings]
+MaximumRemoteSize=0
 
 [Shortcuts]
 Back=Alt+Left

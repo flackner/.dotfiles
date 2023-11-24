@@ -45,6 +45,7 @@ TextOnly=true
 [Script-polonium]
 Borders=0
 FilterProcessName=
+Rotation=true
 Unfullscreen=true
 
 [SubSession: 532b66be-76b3-4085-8ac3-fe022d42148b]
@@ -66,15 +67,18 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
-tiles={"layoutDirection":"horizontal","tiles":[]}
+tiles={"layoutDirection":"horizontal","tiles":[{"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}],"width":0.5},{"width":0.5}]}
 
 [Tiling][5b7a5ba4-43cc-5910-8e98-f358f9d54b43]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+tiles={"layoutDirection":"horizontal","tiles":[]}
 
 [Tiling][60b1ec88-9b03-5c14-92d0-4340f455a9cd]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
+tiles={"layoutDirection":"horizontal","tiles":[]}
 
 [Tiling][bd455426-91b5-5aa4-b78c-9e21c3c810ab]
+tiles={"layoutDirection":"horizontal","tiles":[]}
+
+[Tiling][c8c349d6-b72d-526f-be8f-c779e82dd247]
 tiles={"layoutDirection":"horizontal","tiles":[]}
 
 [Windows]

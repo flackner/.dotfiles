@@ -1,5 +1,3 @@
-
-
 if [[ -e ~/.oh-my-zsh ]]
 then
 cd ~/.oh-my-zsh
@@ -10,7 +8,7 @@ sudo zypper -n install eza
 sudo zypper -n install ripgrep
 sudo zypper -n install fd
 sudo zypper -n install bat
-sudo zypper -n install the_silver_searcher  
+sudo zypper -n install the_silver_searcher
 git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
@@ -35,6 +33,10 @@ git pull
 else
 sudo zypper -n install neovim
 git clone --dipth 1 https://github.com/NvChad/NvChad.git ~/.config/nvim
+wget https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Ligatures/Regular/JetBrainsMonoNerdFont-Regular.ttf
+mkdir -p ~/.local/share/fonts
+mv JetBrainsMonoNerdFont-Regular.ttf ~/.local/share/fonts/
+fc-cache -f -v
 fi
 
 if [[ -e ~/.tmux/plugins/tpm ]]
@@ -62,4 +64,3 @@ then
 else
 sudo zypper -n install mc
 fi
-

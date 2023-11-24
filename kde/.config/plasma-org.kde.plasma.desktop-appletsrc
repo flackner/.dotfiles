@@ -38,6 +38,15 @@ SlidePaths=/usr/share/wallpapers/
 [Containments][137][Wallpaper][org.kde.potd][General]
 FillMode=2
 
+[Containments][141]
+activityId=488487fa-4da8-497b-a138-f21de7ecaa9f
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
 [Containments][31]
 activityId=
 formfactor=2
@@ -121,7 +130,7 @@ immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][31][Applets][40][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][31][Applets][41]
 immutability=1
@@ -290,7 +299,7 @@ immutability=1
 plugin=org.kde.plasma.nightcolorcontrol
 
 [Containments][63][Applets][78][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][63][Applets][79]
 immutability=1
@@ -712,7 +721,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][86][Applets][100][Configuration]
-PreloadWeight=44
+PreloadWeight=36
 
 [Containments][86][Applets][101]
 immutability=1
@@ -789,7 +798,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][86][Applets][94][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][86][Applets][95]
 immutability=1

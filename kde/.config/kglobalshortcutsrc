@@ -39,7 +39,7 @@ _k_friendly_name=Custom Shortcuts Service
 {503a98eb-1dea-4028-962c-edc165a4e235}=Favorites,none,konsoleFast
 {64d0ea4f-f8e6-4782-a4b0-d394d31ec2fc}=Meta+Ctrl+2,none,code
 {86e61fdc-c628-4e38-adfe-e65a91ae8474}=Meta+Ctrl+4,none,dolphin
-{a13d7b35-c678-4c72-b1f9-a926d87cd5f1}=Meta+Q,none,enterFaybmak
+{a13d7b35-c678-4c72-b1f9-a926d87cd5f1}=Meta+Backspace,none,enterFaybmak
 {dd9f8f3a-0d78-4c82-ad28-0497b4ee1d8f}=Meta+Esc,none,escapeFaybmak
 {e733b980-897f-4644-98de-31db7dc40579}=Meta+Ctrl+Alt+Tab,none,shutdown
 {eba6859a-9b02-4e10-a90f-d2359a530c40}=Meta+Ctrl+5,none,thunderbird
@@ -247,11 +247,11 @@ view_zoom_out=none,Meta+-,Zoom Out
 
 [mediacontrol]
 _k_friendly_name=Media Controller
-mediavolumedown=none,none,Media volume down
-mediavolumeup=none,none,Media volume up
+mediavolumedown=none,,Media volume down
+mediavolumeup=none,,Media volume up
 nextmedia=Media Next,Media Next,Media playback next
 pausemedia=Media Pause,Media Pause,Pause media playback
-playmedia=none,none,Play media playback
+playmedia=none,,Play media playback
 playpausemedia=Media Play,Media Play,Play/Pause media playback
 previousmedia=Media Previous,Media Previous,Media playback previous
 stopmedia=Media Stop,Media Stop,Stop media playback

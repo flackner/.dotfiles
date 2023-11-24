@@ -1139,7 +1139,7 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_4_6Triggers0]
-Key=Meta+Q
+Key=Meta+Backspace
 Type=SHORTCUT
 Uuid={a13d7b35-c678-4c72-b1f9-a926d87cd5f1}
 
@@ -1258,6 +1258,7 @@ Theme[$d]
 AnimationDurationFactor[$d]
 ChangeCursor[$d]
 LookAndFeelPackage[$d]
+ShowDeleteCommand[$d]
 SingleClick[$d]
 contrast[$d]
 widgetStyle[$d]
@@ -1298,6 +1299,7 @@ Version=2
 Trash[$d]
 
 [PreviewSettings]
+MaximumRemoteSize[$d]
 camera[$d]
 file[$d]
 fonts[$d]
