@@ -40,10 +40,25 @@
   "workbench.colorTheme": "faybtheme",
   "editor.fontFamily": "JetBrainsMono NF",
   "editor.fontLigatures": true,
-  "faybcontrol.distance": 20,
-  "faybcontrol.offset": 20,
+  "faybcontrol.distance": 5,
+  "faybcontrol.offset": 5,
   "editor.minimap.enabled": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "cmake.configureOnOpen": false,
-  "security.workspace.trust.enabled": false
+  "security.workspace.trust.enabled": false,
+  "cmake.showOptionsMovedNotification": false,
+  "json.format.keepLines": true,
+  "fortran.formatting.formatter": "fprettify",
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "cmake.generator": "Unix Makefiles",
+  "pylint.args": [
+    "\"pylint.args\": [\"--max-line-length=132\"]"
+  ],
+  "window.zoomLevel": -1,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "terminal.integrated.altClickMovesCursor": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "workbench.editor.empty.hint": "hidden"
 }

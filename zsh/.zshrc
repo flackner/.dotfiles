@@ -118,7 +118,7 @@ alias ls="eza"
 alias tt="gio trash"
 alias ll="eza -alh"
 alias fdd="fd --hidden --no-ignore"
-alias rgg="rg --no-ignore --hidden"
+alias rgg="rg --hidden --no-ignore"
 alias fzp="fzf --preview '([[ -f {} ]] && (bat --style=numbers --color=always {} || cat {})) || ([[ -d {} ]] && (tree -C {} | less)) || echo {} 2> /dev/null | head -200'"
 alias e="nvim"
 alias sysupdate="sudo zypper refresh && sudo zypper update" #dup?
@@ -127,11 +127,6 @@ alias dots='/usr/bin/git --git-dir=/home/fabian/.dots/ --work-tree=/home/fabian'
 #pseudo alias grep="rg"
 #pseudo alias find="fd"
 #pseudo alias man="tldr"
-
-# functions
-c() {
-    cd "$@" && ls;
-}
 
 # ENV definitionsv
 
@@ -168,3 +163,21 @@ bindkey -M menuselect '^[[1;5D' backward-char
 #bindkey -s '^[[1;3C' 'popd ^M'
 #bindkey -s '^[[1;3D' 'cd ..^M'
 
+
+# functions
+# functions
+c() {
+    if [ -f "$1" ]; then
+        # If the target is a file, go to its directory
+        builtin cd "$(dirname "$1")" && ls;
+    else
+        builtin cd -P "$1" && ls;
+    fi
+}
+
+compdef _cd c # use the default compilation for cd
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

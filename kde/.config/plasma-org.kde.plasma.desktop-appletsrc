@@ -26,7 +26,7 @@ DialogWidth=1912
 
 [Containments][137][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=559
+ToolBoxButtonX=444
 
 [Containments][137][Wallpaper][org.kde.color][General]
 Color=60,0,67
@@ -155,7 +155,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][31][Applets][45][Configuration]
-PreloadWeight=34
+PreloadWeight=10
 
 [Containments][31][Applets][46]
 immutability=1
@@ -675,14 +675,6 @@ systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 [Containments][80][Applets][81][Configuration][Shortcuts]
 global=Alt+F1
 
-[Containments][80][Applets][82]
-immutability=1
-plugin=org.kde.plasma.pager
-
-[Containments][80][Applets][82][Configuration][ConfigDialog]
-DialogHeight=1080
-DialogWidth=1920
-
 [Containments][80][Applets][84]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
@@ -700,7 +692,7 @@ DialogHeight=1080
 DialogWidth=168
 
 [Containments][80][General]
-AppletOrder=140;81;84;85;110;128;82;129;122;126;125;127;131;130
+AppletOrder=140;81;84;85;110;128;125;129;122;126;127;131;130
 
 [Containments][80][Shortcuts]
 global=
@@ -721,7 +713,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][86][Applets][100][Configuration]
-PreloadWeight=36
+PreloadWeight=31
 
 [Containments][86][Applets][101]
 immutability=1
@@ -745,7 +737,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][86][Applets][135][Configuration]
-PreloadWeight=65
+PreloadWeight=75
 
 [Containments][86][Applets][87]
 immutability=1
@@ -763,7 +755,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][86][Applets][88][Configuration]
-PreloadWeight=65
+PreloadWeight=80
 
 [Containments][86][Applets][88][Configuration][General]
 migrated=true
@@ -816,7 +808,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][86][Applets][99][Configuration]
-PreloadWeight=100
+PreloadWeight=89
 
 [Containments][86][ConfigDialog]
 DialogHeight=1080
