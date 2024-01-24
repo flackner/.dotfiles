@@ -43,7 +43,6 @@
   "faybcontrol.distance": 5,
   "faybcontrol.offset": 5,
   "editor.minimap.enabled": false,
-  "diffEditor.ignoreTrimWhitespace": false,
   "cmake.configureOnOpen": false,
   "security.workspace.trust.enabled": false,
   "cmake.showOptionsMovedNotification": false,
@@ -56,9 +55,7 @@
   "pylint.args": [
     "\"pylint.args\": [\"--max-line-length=132\"]"
   ],
-  "window.zoomLevel": -1,
-  "diffEditor.hideUnchangedRegions.enabled": true,
-  "terminal.integrated.altClickMovesCursor": false,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "workbench.editor.empty.hint": "hidden"
+  "editor.renderLineHighlight": "none",
+  "C_Cpp.inactiveRegionForegroundColor": "#8B8772",
+  "python.languageServer": "Pylance"
 }

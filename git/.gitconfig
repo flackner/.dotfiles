@@ -15,5 +15,6 @@
 
 [user]
 	name = flackner
+	email = flackner@nowhere.at
 [init]
 	defaultBranch = main
