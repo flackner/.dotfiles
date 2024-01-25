@@ -37,7 +37,6 @@
   "editor.smoothScrolling": true,
   "workbench.iconTheme": "file-icons",
   "editor.semanticHighlighting.enabled": true,
-  "workbench.colorTheme": "faybtheme",
   "editor.fontFamily": "JetBrainsMono NF",
   "editor.fontLigatures": true,
   "faybcontrol.distance": 5,
@@ -57,5 +56,9 @@
   ],
   "editor.renderLineHighlight": "none",
   "C_Cpp.inactiveRegionForegroundColor": "#8B8772",
-  "python.languageServer": "Pylance"
+  "python.languageServer": "Pylance",
+  "workbench.colorTheme": "faybtheme",
+  "workbench.colorCustomizations": {
+    // put your development theme file here
+  }
 }
