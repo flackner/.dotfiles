@@ -28,9 +28,12 @@ LayoutMode=0
 
 [NightColor]
 Active=true
+EveningBeginFixed=2100
 LatitudeFixed=47.4
 LongitudeFixed=12.18
-Mode=Location
+Mode=Times
+MorningBeginFixed=0500
+NightTemperature=5500
 
 [Plugins]
 desktopchangeosdEnabled=true
@@ -67,7 +70,7 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][213a9620-187e-58a6-b80b-85d8fb95dfce]
-tiles={"layoutDirection":"vertical","tiles":[]}
+tiles={"layoutDirection":"vertical","tiles":[{"height":0.5},{"height":0.5}]}
 
 [Tiling][5b7a5ba4-43cc-5910-8e98-f358f9d54b43]
 tiles={"layoutDirection":"horizontal","tiles":[]}

@@ -57,8 +57,9 @@
   "editor.renderLineHighlight": "none",
   "C_Cpp.inactiveRegionForegroundColor": "#8B8772",
   "python.languageServer": "Pylance",
-  "workbench.colorTheme": "faybtheme",
+  "workbench.colorTheme": "faybtheme_violet",
   "workbench.colorCustomizations": {
     // put your development theme file here
   }
+
 }
