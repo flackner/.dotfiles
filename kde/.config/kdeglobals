@@ -179,8 +179,10 @@ MaximumRemoteSize=0
 
 [Shortcuts]
 Back=Alt+Left
-Copy=Ctrl+C
+Copy=Ctrl+C; Copy
+Cut=Shift+Del; Cut; Ctrl+X
 Help=
+Paste=Paste; Shift+Ins; Ctrl+V
 
 [WM]
 activeBackground=49,54,59

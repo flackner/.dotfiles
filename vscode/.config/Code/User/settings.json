@@ -59,7 +59,6 @@
   "python.languageServer": "Pylance",
   "workbench.colorTheme": "faybtheme_violet",
   "workbench.colorCustomizations": {
-    // put your development theme file here
+	//"editor.background": "#1e181e", // Editor background color.
   }
-
 }

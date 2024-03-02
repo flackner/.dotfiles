@@ -155,7 +155,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][31][Applets][45][Configuration]
-PreloadWeight=10
+PreloadWeight=2
 
 [Containments][31][Applets][46]
 immutability=1
@@ -664,8 +664,8 @@ popupHeight=544
 popupWidth=701
 
 [Containments][80][Applets][81][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=534
+DialogWidth=1912
 
 [Containments][80][Applets][81][Configuration][General]
 favoritesPortedToKAstats=true
@@ -713,7 +713,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][86][Applets][100][Configuration]
-PreloadWeight=41
+PreloadWeight=25
 
 [Containments][86][Applets][101]
 immutability=1
@@ -808,7 +808,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][86][Applets][99][Configuration]
-PreloadWeight=89
+PreloadWeight=91
 
 [Containments][86][ConfigDialog]
 DialogHeight=1080
