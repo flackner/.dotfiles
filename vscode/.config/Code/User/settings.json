@@ -39,7 +39,7 @@
   "editor.semanticHighlighting.enabled": true,
   "editor.fontFamily": "JetBrainsMono NF",
   "editor.fontLigatures": true,
-  "faybcontrol.distance": 5,
+  "faybcontrol.distance": 20,
   "faybcontrol.offset": 5,
   "editor.minimap.enabled": false,
   "cmake.configureOnOpen": false,
@@ -54,7 +54,6 @@
   "pylint.args": [
     "\"pylint.args\": [\"--max-line-length=132\"]"
   ],
-  "editor.renderLineHighlight": "none",
   "C_Cpp.inactiveRegionForegroundColor": "#8B8772",
   "python.languageServer": "Pylance",
   "workbench.colorTheme": "faybtheme_violet",

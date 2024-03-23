@@ -1307,7 +1307,9 @@ fonts[$d]
 [Shortcuts]
 Back[$d]
 Copy[$d]
+Cut[$d]
 Help[$d]
+Paste[$d]
 
 [Voice]
 Shortcut=
