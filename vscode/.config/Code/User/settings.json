@@ -32,6 +32,28 @@
           "command": "list.selectAndPreserveFocus"
         }
       ]
+    },
+    {
+      "command": "multiCommand.focusFirstEditorGroup",
+      "sequence": [
+        {
+          "command": "workbench.action.focusFirstEditorGroup"
+        },
+        {
+          "command": "workbench.action.closePanel"
+        }
+      ]
+    },
+    {
+      "command": "multiCommand.focusSecondEditorGroup",
+      "sequence": [
+        {
+          "command": "workbench.action.focusSecondEditorGroup"
+        },
+        {
+          "command": "workbench.action.closePanel"
+        }
+      ]
     }
   ],
   "editor.smoothScrolling": true,
@@ -59,5 +81,11 @@
   "workbench.colorTheme": "faybtheme_violet",
   "workbench.colorCustomizations": {
 	//"editor.background": "#1e181e", // Editor background color.
-  }
+  },
+  "window.menuBarVisibility": "toggle",
+  "workbench.editor.enablePreview": false,
+  "editor.rename.enablePreview": false,
+  "workbench.editor.showTabs": "none",
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.location": "hidden"
 }

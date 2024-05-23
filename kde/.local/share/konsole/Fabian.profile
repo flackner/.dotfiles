@@ -1,6 +1,7 @@
 [Appearance]
 ColorScheme=148925-bl1nk
-Font=JetBrainsMono Nerd Font,10,-1,5,57,0,0,0,0,0,Medium
+Font=Monospace,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+UseFontLineChararacters=true
 
 [General]
 Name=Fabian
