@@ -1,5 +1,4 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -121,6 +120,10 @@ alias fdd="fd --hidden --no-ignore"
 alias rgg="rg --hidden --no-ignore"
 alias fzp="fzf --preview '([[ -f {} ]] && (bat --style=numbers --color=always {} || cat {})) || ([[ -d {} ]] && (tree -C {} | less)) || echo {} 2> /dev/null | head -200'"
 alias e="nvim"
+alias sk="sudo systemctl start keyd"
+alias sx="startx /usr/bin/startplasma-x11"
+alias sw="dbus-run-session startplasma-wayland"
+alias sm="kwin_wayland_wrapper --xwayland"
 alias sysupdate="sudo zypper refresh && sudo zypper update" #dup?
 alias goto="cd -P"
 alias dots='/usr/bin/git --git-dir=/home/fabian/.dots/ --work-tree=/home/fabian'
@@ -178,7 +181,17 @@ c() {
 
 compdef _cd c # use the default compilation for cd
 
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/fabian/google-cloud-sdk/path.zsh.inc' ]; then . '/home/fabian/google-cloud-sdk/path.zsh.inc'; fi
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/fabian/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/fabian/google-cloud-sdk/completion.zsh.inc'; fi
+
+# >>> juliaup initialize >>>
+
+# !! Contents within this block are managed by juliaup !!
+
+path=('/home/fabian/.juliaup/bin' $path)
+export PATH
+
+# <<< juliaup initialize <<<

@@ -136,8 +136,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [DirSelect Dialog]
-DirSelectDialog Size=640,480
-History Items[$e]=file:$HOME/Documents/embeddedTrainingC,file:$HOME/Desktop,file:$HOME/projects/cProjects/td1c,file:$HOME,file:$HOME/Downloads
+DirSelectDialog Size=1274,1432
+History Items[$e]=file:$HOME/.vscode/extensions/fortran-lang.linter-gfortran-3.2.0/,file:$HOME/projects/juliaProjects/standardMap,file:$HOME/anaconda3/envs/juliaenv,file:$HOME/projects/pyProjects/measureRuntime,file:$HOME/projects/fProjects/loadTest,file:$HOME/projects/pyProjects/treeRotation,file:$HOME/Documents/embeddedTrainingC,file:$HOME/Desktop,file:$HOME/projects/cProjects/td1c,file:$HOME,file:$HOME/Downloads
 
 [General]
 AllowKDEAppsToRememberWindowPositions=false
@@ -164,10 +164,10 @@ Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
 Show hidden files=true
-Sort by=Name
+Sort by=Date
 Sort directories first=true
 Sort hidden files last=false
-Sort reversed=false
+Sort reversed=true
 Speedbar Width=138
 View Style=DetailTree
 

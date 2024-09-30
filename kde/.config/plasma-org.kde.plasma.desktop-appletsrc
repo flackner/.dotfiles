@@ -21,8 +21,8 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.color
 
 [Containments][137][ConfigDialog]
-DialogHeight=1072
-DialogWidth=1912
+DialogHeight=1412
+DialogWidth=2560
 
 [Containments][137][Configuration]
 PreloadWeight=42
@@ -379,8 +379,8 @@ plugin=org.kde.plasma.systemmonitor.cpu
 
 [Containments][80][Applets][122][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=92
-popupHeight=140
+PreloadWeight=100
+popupHeight=256
 popupWidth=156
 
 [Containments][80][Applets][122][Configuration][Appearance]
@@ -435,9 +435,9 @@ plugin=org.kde.plasma.systemmonitor.net
 
 [Containments][80][Applets][125][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=92
-popupHeight=133
-popupWidth=156
+PreloadWeight=100
+popupHeight=400
+popupWidth=560
 
 [Containments][80][Applets][125][Configuration][Appearance]
 chartFace=org.kde.ksysguard.piechart
@@ -495,9 +495,9 @@ plugin=org.kde.plasma.systemmonitor.memory
 
 [Containments][80][Applets][126][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=92
-popupHeight=140
-popupWidth=156
+PreloadWeight=100
+popupHeight=400
+popupWidth=560
 
 [Containments][80][Applets][126][Configuration][Appearance]
 chartFace=org.kde.ksysguard.piechart
@@ -542,7 +542,7 @@ plugin=org.kde.plasma.systemmonitor.diskactivity
 [Containments][80][Applets][127][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
 PreloadWeight=92
-popupHeight=152
+popupHeight=110
 popupWidth=156
 
 [Containments][80][Applets][127][Configuration][Appearance]
@@ -598,9 +598,9 @@ plugin=org.kde.plasma.systemmonitor.net
 
 [Containments][80][Applets][129][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=92
-popupHeight=140
-popupWidth=156
+PreloadWeight=100
+popupHeight=400
+popupWidth=560
 
 [Containments][80][Applets][129][Configuration][Appearance]
 chartFace=org.kde.ksysguard.piechart
@@ -628,8 +628,8 @@ plugin=org.kde.plasma.systemmonitor
 
 [Containments][80][Applets][130][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
-PreloadWeight=97
-popupHeight=140
+PreloadWeight=100
+popupHeight=212
 popupWidth=156
 
 [Containments][80][Applets][130][Configuration][Appearance]
@@ -658,8 +658,8 @@ plugin=org.kde.plasma.systemmonitor
 [Containments][80][Applets][131][Configuration]
 CurrentPreset=org.kde.plasma.systemmonitor
 PreloadWeight=100
-popupHeight=140
-popupWidth=156
+popupHeight=400
+popupWidth=560
 
 [Containments][80][Applets][131][Configuration][Appearance]
 chartFace=org.kde.ksysguard.piechart
@@ -705,8 +705,8 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][80][Applets][81][Configuration]
 PreloadWeight=100
-popupHeight=544
-popupWidth=701
+popupHeight=510
+popupWidth=647
 
 [Containments][80][Applets][81][Configuration][ConfigDialog]
 DialogHeight=534
@@ -788,7 +788,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][86][Applets][135][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][86][Applets][144]
 immutability=1
@@ -802,7 +802,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][86][Applets][145][Configuration]
-PreloadWeight=42
+PreloadWeight=47
 
 [Containments][86][Applets][147]
 immutability=1
@@ -844,7 +844,7 @@ immutability=1
 plugin=org.kde.kscreen
 
 [Containments][86][Applets][90][Configuration]
-PreloadWeight=67
+PreloadWeight=100
 
 [Containments][86][Applets][91][Configuration]
 PreloadWeight=42
@@ -854,7 +854,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][86][Applets][92][Configuration]
-PreloadWeight=97
+PreloadWeight=100
 
 [Containments][86][Applets][93]
 immutability=1
@@ -868,7 +868,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][86][Applets][94][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 
 [Containments][86][Applets][95]
 immutability=1
@@ -889,7 +889,10 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][86][Applets][99][Configuration]
-PreloadWeight=84
+PreloadWeight=100
+
+[Containments][86][Applets][99][Configuration][General]
+currentDetailsTab=details
 
 [Containments][86][ConfigDialog]
 DialogHeight=1080

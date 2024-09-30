@@ -35,8 +35,9 @@ mute=Volume Mute,Volume Mute,Mute
 [ksmserver]
 Halt Without Confirmation=none,,Shut Down Without Confirmation
 Lock Session=none,Meta+L\tScreensaver,Lock Session
-Log Out=none,Ctrl+Alt+Del,Log Out
+Log Out=none,Ctrl+Alt+Del,Show Logout Prompt
 Log Out Without Confirmation=none,,Log Out Without Confirmation
+LogOut=none,,Log Out
 Reboot=none,,Reboot
 Reboot Without Confirmation=none,,Reboot Without Confirmation
 Shut Down=none,,Shut Down
@@ -48,9 +49,9 @@ Cycle Overview=none,none,Cycle through Overview and Grid View
 Cycle Overview Opposite=none,none,Cycle through Grid View and Overview
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5%
 Edit Tiles=Meta+N,Meta+T,Toggle Tiles Editor
-Expose=none,Ctrl+F9,Toggle Present Windows (Current desktop)
-ExposeAll=none,Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
-ExposeClass=none,Ctrl+F7,Toggle Present Windows (Window class)
+Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
+ExposeAll=Ctrl+F10\tLaunch (C),Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
+ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
 ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on current desktop)
 Grid View=none,Meta+G,Toggle Grid View
 Increase Opacity=none,,Increase Opacity of Active Window by 5%
@@ -86,7 +87,6 @@ PoloniumSwitchMonocle=Meta+G,none,Polonium: Use Monocle Engine
 PoloniumSwitchThreeColumn=none,none,Polonium: Use Three Column Engine
 Setup Window Shortcut=none,,Setup Window Shortcut
 Show Desktop=none,Meta+D,Peek at Desktop
-ShowDesktopGrid=none,Meta+F8,Show Desktop Grid
 Suspend Compositing=none,Alt+Shift+F12,Suspend Compositing
 Switch One Desktop Down=none,Meta+Ctrl+Down,Switch One Desktop Down
 Switch One Desktop Up=none,Meta+Ctrl+Up,Switch One Desktop Up
@@ -132,7 +132,7 @@ Switch to Screen Above=none,,Switch to Screen Above
 Switch to Screen Below=none,,Switch to Screen Below
 Switch to Screen to the Left=none,,Switch to Screen to the Left
 Switch to Screen to the Right=none,,Switch to Screen to the Right
-Toggle Night Color=none,none,Toggle Night Light
+Toggle Night Color=none,none,Suspend/Resume Night Light
 Toggle Window Raise/Lower=none,,Toggle Window Raise/Lower
 Walk Through Windows=Alt+Tab,Alt+Tab,Walk Through Windows
 Walk Through Windows (Reverse)=Alt+Shift+Backtab,Alt+Shift+Tab,Walk Through Windows (Reverse)
@@ -249,6 +249,7 @@ powerProfile=Battery,Battery\tMeta+B,Switch Power Profile
 
 [plasmashell]
 _k_friendly_name=plasmashell
+activate application launcher=Meta\tAlt+F1,Meta\tAlt+F1,Activate Application Launcher
 activate task manager entry 1=none,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=none,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=none,Meta+2,Activate Task Manager Entry 2
@@ -304,16 +305,6 @@ ShowOSD=none
 _launch=none
 
 [services][org.kde.plasma.emojier.desktop]
-_launch=none
-
-[services][org.kde.spectacle.desktop]
-ActiveWindowScreenShot=none
-FullScreenScreenShot=none
-RecordRegion=none
-RecordScreen=none
-RecordWindow=none
-RectangularRegionScreenShot=none
-WindowUnderCursorScreenShot=none
 _launch=none
 
 [services][org.mozilla.Thunderbird.desktop]

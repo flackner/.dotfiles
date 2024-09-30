@@ -86,6 +86,30 @@
   "workbench.editor.enablePreview": false,
   "editor.rename.enablePreview": false,
   "workbench.editor.showTabs": "none",
-  "workbench.statusBar.visible": false,
-  "workbench.activityBar.location": "hidden"
+  "continue.enableTabAutocomplete": false,
+  "CodeGPT.apiKey": "Mistral",
+  "cloudcode.duetAI.project": "gen-lang-client-0650565492",
+  "cloudcode.project": "gen-lang-client-0650565492",
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "add another loop",
+    "test"
+  ],
+  "continue.showInlineTip": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.enabled": false,
+  "terminal.integrated.commandsToSkipShell": [
+    "language-julia.interrupt"
+  ],
+  "julia.symbolCacheDownload": true,
+  "julia.enableTelemetry": false
 }
