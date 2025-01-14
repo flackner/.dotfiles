@@ -128,6 +128,7 @@ alias sysupdate="sudo zypper refresh && sudo zypper update" #dup?
 alias goto="cd -P"
 alias dots='/usr/bin/git --git-dir=/home/fabian/.dots/ --work-tree=/home/fabian'
 alias xc='xclip -selection clipboard'
+alias myvpn='sudo wg-quick up wg0'
 #pseudo alias grep="rg"
 #pseudo alias find="fd"
 #pseudo alias man="tldr"

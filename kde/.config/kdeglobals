@@ -136,8 +136,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [DirSelect Dialog]
-DirSelectDialog Size=1274,1432
-History Items[$e]=file:$HOME/.vscode/extensions/fortran-lang.linter-gfortran-3.2.0/,file:$HOME/projects/juliaProjects/standardMap,file:$HOME/anaconda3/envs/juliaenv,file:$HOME/projects/pyProjects/measureRuntime,file:$HOME/projects/fProjects/loadTest,file:$HOME/projects/pyProjects/treeRotation,file:$HOME/Documents/embeddedTrainingC,file:$HOME/Desktop,file:$HOME/projects/cProjects/td1c,file:$HOME,file:$HOME/Downloads
+DirSelectDialog Size=954,1072
+History Items[$e]=file:$HOME/projects,file:$HOME/projects/jaxProjects/mnist,file:$HOME/projects,file:$HOME/projects,file:$HOME/projects/fProjects/codyFortranDev,file:$HOME/projects,file:$HOME/projects/javaProjects/formalItUe1/fmi24block1,file:$HOME/.vscode/extensions/fortran-lang.linter-gfortran-3.2.0/,file:$HOME/projects/juliaProjects/standardMap,file:$HOME/anaconda3/envs/juliaenv,file:$HOME/projects/pyProjects/measureRuntime,file:$HOME/projects/fProjects/loadTest,file:$HOME/projects/pyProjects/treeRotation,file:$HOME/Documents/embeddedTrainingC,file:$HOME/Desktop,file:$HOME/projects/cProjects/td1c,file:$HOME,file:$HOME/Downloads
 
 [General]
 AllowKDEAppsToRememberWindowPositions=false
@@ -153,7 +153,7 @@ SingleClick=false
 
 [KFileDialog Settings]
 Allow Expansion=false
-Automatically select filename extension=true
+Automatically select filename extension=false
 Breadcrumb Navigation=true
 Decoration position=2
 LocationCombo Completionmode=5
@@ -172,7 +172,7 @@ Speedbar Width=138
 View Style=DetailTree
 
 [KShortcutsDialog Settings]
-Dialog Size=1876,1051
+Dialog Size=1920,1052
 
 [PreviewSettings]
 MaximumRemoteSize=0

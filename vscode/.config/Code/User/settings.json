@@ -57,7 +57,6 @@
     }
   ],
   "editor.smoothScrolling": true,
-  "workbench.iconTheme": "file-icons",
   "editor.semanticHighlighting.enabled": true,
   "editor.fontFamily": "JetBrainsMono NF",
   "editor.fontLigatures": true,
@@ -111,5 +110,14 @@
     "language-julia.interrupt"
   ],
   "julia.symbolCacheDownload": true,
-  "julia.enableTelemetry": false
+  "julia.enableTelemetry": false,
+  "workbench.startupEditor": "none",
+  "github.copilot.enable": {
+    "plaintext": true,
+    "markdown": true,
+    "scminput": true
+  },
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  "terminal.integrated.inheritEnv": false,
+  "git.openRepositoryInParentFolders": "never"
 }

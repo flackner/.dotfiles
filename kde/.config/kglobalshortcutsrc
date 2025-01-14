@@ -35,7 +35,7 @@ mute=Volume Mute,Volume Mute,Mute
 [ksmserver]
 Halt Without Confirmation=none,,Shut Down Without Confirmation
 Lock Session=none,Meta+L\tScreensaver,Lock Session
-Log Out=none,Ctrl+Alt+Del,Show Logout Prompt
+Log Out=none,Ctrl+Alt+Del,Show Logout Screen
 Log Out Without Confirmation=none,,Log Out Without Confirmation
 LogOut=none,,Log Out
 Reboot=none,,Reboot
@@ -149,7 +149,7 @@ Window Fullscreen=none,,Make Window Fullscreen
 Window Grow Horizontal=none,,Expand Window Horizontally
 Window Grow Vertical=none,,Expand Window Vertically
 Window Lower=none,,Lower Window
-Window Maximize=none,Meta+PgUp,Maximize Window
+Window Maximize=Meta+Q,Meta+PgUp,Maximize Window
 Window Maximize Horizontal=none,,Maximize Window Horizontally
 Window Maximize Vertical=none,,Maximize Window Vertically
 Window Minimize=Meta+Z,Meta+PgDown,Minimize Window
@@ -244,7 +244,7 @@ PowerOff=Power Off,Power Off,Power Off
 Sleep=Sleep,Sleep,Suspend
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Toggle Keyboard Backlight
 Turn Off Screen=none,none,Turn Off Screen
-_k_friendly_name=KDE Power Management System
+_k_friendly_name=Power Management
 powerProfile=Battery,Battery\tMeta+B,Switch Power Profile
 
 [plasmashell]
@@ -287,7 +287,7 @@ _launch=Meta+"
 _launch=Meta+!
 
 [services][org.kde.dolphin.desktop]
-_launch=Meta+$
+_launch=Meta+&
 
 [services][org.kde.kcalc.desktop]
 _launch=none
@@ -307,8 +307,12 @@ _launch=none
 [services][org.kde.plasma.emojier.desktop]
 _launch=none
 
+[services][org.kde.spectacle.desktop]
+RecordRegion=Meta+Shift+R
+RecordScreen=none
+
 [services][org.mozilla.Thunderbird.desktop]
-_launch=Meta+%
+_launch=Meta+/
 
 [services][sudo-2.desktop]
 _launch=Meta+H
@@ -322,3 +326,7 @@ _launch=Meta+Esc
 [services][systemsettings.desktop]
 kcm-kscreen=Display
 kcm-powerdevilprofilesconfig=Favorites
+
+[yakuake]
+_k_friendly_name=Yakuake
+toggle-window-state=F12,F12,Open/Retract Yakuake
