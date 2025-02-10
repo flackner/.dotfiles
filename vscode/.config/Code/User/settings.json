@@ -119,5 +119,12 @@
   },
   "chat.editing.alwaysSaveWithGeneratedChanges": true,
   "terminal.integrated.inheritEnv": false,
-  "git.openRepositoryInParentFolders": "never"
+  "git.openRepositoryInParentFolders": "never",
+  "fortran.linter.includePaths": [
+    "${workspaceFolder}/build/**"
+  ],
+  "fortran.fortls.directories": [
+    "${workspace}/**",
+    "${workspace}/build/dependencies/**/**"
+  ]
 }

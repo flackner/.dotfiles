@@ -286,6 +286,9 @@ _launch=Meta+"
 [services][google-chrome.desktop]
 _launch=Meta+!
 
+[services][net.local.google-chrome.desktop]
+_launch=Meta+%
+
 [services][org.kde.dolphin.desktop]
 _launch=Meta+&
 
