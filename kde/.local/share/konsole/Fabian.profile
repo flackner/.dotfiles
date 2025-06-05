@@ -7,5 +7,8 @@ UseFontLineChararacters=true
 Name=Fabian
 Parent=FALLBACK/
 
+[Keyboard]
+KeyBindings=default
+
 [Scrolling]
 HistorySize=1000000

@@ -33,7 +33,6 @@ DP-1-1 XPosition 2560x1440 DP-1-1=0
 DP-1-1 YPosition 2560x1440 DP-1-1=29
 DP-1-3=DP-1-3
 MenuBar=Disabled
-ToolBarsMovable=Disabled
 eDP-1=eDP-1
 eDP-1 Height 1920x1080 eDP-1=1007
 eDP-1 Width 1920x1080 eDP-1=1920

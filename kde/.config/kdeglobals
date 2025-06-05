@@ -136,8 +136,9 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [DirSelect Dialog]
-DirSelectDialog Size=954,1072
-History Items[$e]=file:$HOME/projects,file:$HOME/projects/jaxProjects/mnist,file:$HOME/projects,file:$HOME/projects,file:$HOME/projects/fProjects/codyFortranDev,file:$HOME/projects,file:$HOME/projects/javaProjects/formalItUe1/fmi24block1,file:$HOME/.vscode/extensions/fortran-lang.linter-gfortran-3.2.0/,file:$HOME/projects/juliaProjects/standardMap,file:$HOME/anaconda3/envs/juliaenv,file:$HOME/projects/pyProjects/measureRuntime,file:$HOME/projects/fProjects/loadTest,file:$HOME/projects/pyProjects/treeRotation,file:$HOME/Documents/embeddedTrainingC,file:$HOME/Desktop,file:$HOME/projects/cProjects/td1c,file:$HOME,file:$HOME/Downloads
+DirSelectDialog Size=1274,714
+History Items[$e]=file:$HOME/Documents,file:$HOME/projects,file:$HOME/projects/jaxProjects/mnist,file:$HOME/projects,file:$HOME/projects,file:$HOME/projects/fProjects/codyFortranDev,file:$HOME/projects,file:$HOME/projects/javaProjects/formalItUe1/fmi24block1,file:$HOME/.vscode/extensions/fortran-lang.linter-gfortran-3.2.0/,file:$HOME/projects/juliaProjects/standardMap,file:$HOME/anaconda3/envs/juliaenv,file:$HOME/projects/pyProjects/measureRuntime,file:$HOME/projects/fProjects/loadTest,file:$HOME/projects/pyProjects/treeRotation,file:$HOME/Documents/embeddedTrainingC,file:$HOME/Desktop,file:$HOME/projects/cProjects/td1c,file:$HOME,file:$HOME/Downloads
+Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00j\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
 
 [General]
 AllowKDEAppsToRememberWindowPositions=false
@@ -154,7 +155,7 @@ SingleClick=false
 [KFileDialog Settings]
 Allow Expansion=false
 Automatically select filename extension=false
-Breadcrumb Navigation=true
+Breadcrumb Navigation=false
 Decoration position=2
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
@@ -167,12 +168,12 @@ Show hidden files=true
 Sort by=Date
 Sort directories first=true
 Sort hidden files last=false
-Sort reversed=true
+Sort reversed=false
 Speedbar Width=138
 View Style=DetailTree
 
 [KShortcutsDialog Settings]
-Dialog Size=1920,1052
+Dialog Size=2560,1412
 
 [PreviewSettings]
 MaximumRemoteSize=0

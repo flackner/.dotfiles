@@ -79,7 +79,7 @@
   "python.languageServer": "Pylance",
   "workbench.colorTheme": "faybtheme_violet",
   "workbench.colorCustomizations": {
-	//"editor.background": "#1e181e", // Editor background color.
+    //"editor.background": "#1e181e", // Editor background color.
   },
   "window.menuBarVisibility": "toggle",
   "workbench.editor.enablePreview": false,
@@ -101,7 +101,7 @@
     "test"
   ],
   "continue.showInlineTip": false,
-  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.ignoreTrimWhitespace": true,
   "gitlens.currentLine.enabled": false,
   "gitlens.hovers.currentLine.over": "line",
   "gitlens.codeLens.enabled": false,
@@ -126,5 +126,13 @@
   "fortran.fortls.directories": [
     "${workspace}/**",
     "${workspace}/build/dependencies/**/**"
-  ]
+  ],
+  "terminal.integrated.env.linux": { },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true
 }

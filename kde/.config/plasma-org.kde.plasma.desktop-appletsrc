@@ -30,6 +30,7 @@ PreloadWeight=42
 [Containments][137][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=384
+positions={"1912x1072":[],"1920x1080":[],"2226x1252":[],"2552x1432":[],"2560x1440":[],"954x1072":[]}
 
 [Containments][137][Wallpaper][org.kde.color][General]
 Color=60,0,67
@@ -49,6 +50,9 @@ lastScreen=1
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][141][General]
+positions={"1280x800":[],"1920x1080":[]}
 
 [Containments][80]
 activityId=
@@ -472,7 +476,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][86][Applets][100][Configuration]
-PreloadWeight=4
+PreloadWeight=30
 
 [Containments][86][Applets][101]
 immutability=1
@@ -510,7 +514,7 @@ immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][86][Applets][145][Configuration]
-PreloadWeight=52
+PreloadWeight=57
 
 [Containments][86][Applets][147]
 immutability=1
@@ -601,7 +605,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][86][Applets][99][Configuration]
-PreloadWeight=100
+PreloadWeight=92
 
 [Containments][86][Applets][99][Configuration][General]
 currentDetailsTab=details
