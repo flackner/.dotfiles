@@ -37,10 +37,13 @@
       "command": "multiCommand.focusFirstEditorGroup",
       "sequence": [
         {
+          "command": "workbench.action.closePanel"
+        },
+        {
           "command": "workbench.action.focusFirstEditorGroup"
         },
         {
-          "command": "workbench.action.closePanel"
+          "command": "workbench.action.toggleMaximizeEditorGroup"
         }
       ]
     },
@@ -48,10 +51,13 @@
       "command": "multiCommand.focusSecondEditorGroup",
       "sequence": [
         {
+          "command": "workbench.action.closePanel"
+        },
+        {
           "command": "workbench.action.focusSecondEditorGroup"
         },
         {
-          "command": "workbench.action.closePanel"
+          "command": "workbench.action.toggleMaximizeEditorGroup"
         }
       ]
     }
@@ -134,5 +140,9 @@
   "terminal.integrated.defaultProfile.linux": "zsh",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "editor.formatOnType": true
+  "editor.formatOnType": true,
+  "workbench.editor.revealIfOpen": false,
+  "files.autoSave": "afterDelay",
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.location": "hidden"
 }
