@@ -2,7 +2,7 @@
 update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed,kwin.upd:desktop-grid-click-behavior,kwin.upd:no-swap-encourage,kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend,kwin.upd:enable-scale-effect-by-default,kwin.upd:overview-group-plugin-id,kwin.upd:animation-speed-cleanup,kwin.upd:replace-cascaded-zerocornered
 
 [Activities][LastVirtualDesktop]
-488487fa-4da8-497b-a138-f21de7ecaa9f=2e15a8bc-82b9-42f8-b849-2435e415eed8
+488487fa-4da8-497b-a138-f21de7ecaa9f=f7b22f57-2f6a-47ef-a869-a72eff45d527
 
 [Compositing]
 AnimationSpeed[$d]

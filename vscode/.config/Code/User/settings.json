@@ -40,10 +40,13 @@
           "command": "workbench.action.closePanel"
         },
         {
+          "command": "workbench.action.closeSidebar"
+        },
+        {
           "command": "workbench.action.focusFirstEditorGroup"
         },
         {
-          "command": "workbench.action.toggleMaximizeEditorGroup"
+          "command": "faybcontrol.placeCursorUp"
         }
       ]
     },
@@ -54,10 +57,13 @@
           "command": "workbench.action.closePanel"
         },
         {
+          "command": "workbench.action.closeSidebar"
+        },
+        {
           "command": "workbench.action.focusSecondEditorGroup"
         },
         {
-          "command": "workbench.action.toggleMaximizeEditorGroup"
+          "command": "faybcontrol.placeCursorUp"
         }
       ]
     }
@@ -143,6 +149,5 @@
   "editor.formatOnType": true,
   "workbench.editor.revealIfOpen": false,
   "files.autoSave": "afterDelay",
-  "workbench.statusBar.visible": false,
   "workbench.activityBar.location": "hidden"
 }
