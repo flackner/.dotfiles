@@ -148,6 +148,5 @@
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "workbench.editor.revealIfOpen": false,
-  "files.autoSave": "afterDelay",
-  "workbench.activityBar.location": "hidden"
+  "files.autoSave": "afterDelay"
 }
