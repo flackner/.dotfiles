@@ -1,15 +1,36 @@
 {
-  "security.workspace.trust.untrustedFiles": "newWindow",
-  "terminal.integrated.scrollback": 1000000,
-  "editor.unicodeHighlight.invisibleCharacters": false,
-  "editor.suggestOnTriggerCharacters": false,
+  "C_Cpp.inactiveRegionForegroundColor": "#8B8772",
+  "cmake.configureOnOpen": false,
+  "cmake.generator": "Unix Makefiles",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.fontFamily": "JetBrainsMono NF",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.minimap.enabled": false,
   "editor.quickSuggestions": {
-    "other": false,
     "comments": false,
+    "other": false,
     "strings": false
   },
-  "search.searchEditor.defaultNumberOfContextLines": 0,
-  "workbench.reduceMotion": "off",
+  "editor.rename.enablePreview": false,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.smoothScrolling": true,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "faybcontrol.distance": 20,
+  "faybcontrol.offset": 5,
+  "files.autoSave": "afterDelay",
+  "git.openRepositoryInParentFolders": "never",
+  "github.copilot.enable": {
+    "markdown": true,
+    "plaintext": true,
+    "scminput": true
+  },
+  "julia.enableTelemetry": false,
+  "julia.symbolCacheDownload": true,
+  "json.format.keepLines": true,
   "multiCommand.commands": [
     {
       "command": "multiCommand.upWithFocus",
@@ -68,86 +89,27 @@
       ]
     }
   ],
-  "editor.smoothScrolling": true,
-  "editor.semanticHighlighting.enabled": true,
-  "editor.fontFamily": "JetBrainsMono NF",
-  "editor.fontLigatures": true,
-  "faybcontrol.distance": 20,
-  "faybcontrol.offset": 5,
-  "editor.minimap.enabled": false,
-  "cmake.configureOnOpen": false,
-  "security.workspace.trust.enabled": false,
-  "cmake.showOptionsMovedNotification": false,
-  "json.format.keepLines": true,
-  "fortran.formatting.formatter": "fprettify",
-  "[markdown]": {
-    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
-  },
-  "cmake.generator": "Unix Makefiles",
-  "pylint.args": [
-    "\"pylint.args\": [\"--max-line-length=132\"]"
-  ],
-  "C_Cpp.inactiveRegionForegroundColor": "#8B8772",
   "python.languageServer": "Pylance",
-  "workbench.colorTheme": "faybtheme_violet",
-  "workbench.colorCustomizations": {
-    //"editor.background": "#1e181e", // Editor background color.
-  },
-  "window.menuBarVisibility": "toggle",
-  "workbench.editor.enablePreview": false,
-  "editor.rename.enablePreview": false,
-  "workbench.editor.showTabs": "none",
-  "continue.enableTabAutocomplete": false,
-  "CodeGPT.apiKey": "Mistral",
-  "cloudcode.duetAI.project": "gen-lang-client-0650565492",
-  "cloudcode.project": "gen-lang-client-0650565492",
-  "todo-tree.general.tags": [
-    "BUG",
-    "HACK",
-    "FIXME",
-    "TODO",
-    "XXX",
-    "[ ]",
-    "[x]",
-    "add another loop",
-    "test"
-  ],
-  "continue.showInlineTip": false,
-  "diffEditor.ignoreTrimWhitespace": true,
-  "gitlens.currentLine.enabled": false,
-  "gitlens.hovers.currentLine.over": "line",
-  "gitlens.codeLens.enabled": false,
-  "gitlens.hovers.enabled": false,
+  "search.searchEditor.defaultNumberOfContextLines": 0,
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
   "terminal.integrated.commandsToSkipShell": [
     "language-julia.interrupt"
   ],
-  "julia.symbolCacheDownload": true,
-  "julia.enableTelemetry": false,
-  "workbench.startupEditor": "none",
-  "github.copilot.enable": {
-    "plaintext": true,
-    "markdown": true,
-    "scminput": true
-  },
-  "chat.editing.alwaysSaveWithGeneratedChanges": true,
-  "terminal.integrated.inheritEnv": false,
-  "git.openRepositoryInParentFolders": "never",
-  "fortran.linter.includePaths": [
-    "${workspaceFolder}/build/**"
-  ],
-  "fortran.fortls.directories": [
-    "${workspace}/**",
-    "${workspace}/build/dependencies/**/**"
-  ],
-  "terminal.integrated.env.linux": { },
-  "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
   "terminal.integrated.defaultProfile.linux": "zsh",
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.formatOnType": true,
+  "terminal.integrated.env.linux": { },
+  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.scrollback": 1000000,
+  "window.menuBarVisibility": "toggle",
+  "workbench.colorCustomizations": {
+    //"editor.background": "#1e181e", // Editor background color.
+  },
+  "workbench.colorTheme": "faybtheme_violet",
+  "workbench.editor.enablePreview": false,
   "workbench.editor.revealIfOpen": false,
-  "files.autoSave": "afterDelay",
-  "github.copilot.nextEditSuggestions.enabled": true
+  "workbench.editor.showTabs": "none",
+  "workbench.reduceMotion": "off",
+  "workbench.startupEditor": "none",
+  "github.copilot.nextEditSuggestions.fixes": false,
+  "workbench.activityBar.location": "hidden"
 }
