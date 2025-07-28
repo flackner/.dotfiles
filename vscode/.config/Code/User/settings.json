@@ -148,5 +148,6 @@
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "workbench.editor.revealIfOpen": false,
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "github.copilot.nextEditSuggestions.enabled": true
 }

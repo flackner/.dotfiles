@@ -179,9 +179,10 @@ Speedbar Width=138
 View Style=DetailTree
 
 [KShortcutsDialog Settings]
-Dialog Size=2560,1412
+Dialog Size=1920,1080
 
 [PreviewSettings]
+EnableRemoteFolderThumbnail=false
 MaximumRemoteSize=0
 
 [Shortcuts]
