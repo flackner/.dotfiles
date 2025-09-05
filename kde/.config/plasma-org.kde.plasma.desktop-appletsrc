@@ -10,8 +10,8 @@ RightButton;NoModifier=org.kde.contextmenu
 lastUpdate=2023,4,26,10,40,35.224
 
 [Containments][137]
-ItemGeometries-1920x1080=
-ItemGeometries-2560x1440=Applet-148:2112,32,448,448,0;Applet-149:2112,480,448,448,0;
+ItemGeometries-1920x1080=Applet-154:1328,336,448,448,0;Applet-155:1776,0,144,448,0;Applet-153:1776,464,144,448,0;Applet-158:1472,912,448,160,0;Applet-156:2112,912,448,448,0;Applet-157:2112,1360,448,80,0;
+ItemGeometries-2560x1440=
 ItemGeometriesHorizontal=
 activityId=488487fa-4da8-497b-a138-f21de7ecaa9f
 formfactor=0
@@ -460,7 +460,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][80][Applets][85][Applets][100][Configuration]
-PreloadWeight=49
+PreloadWeight=100
 
 [Containments][80][Applets][85][Applets][101]
 immutability=1
@@ -477,7 +477,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][80][Applets][85][Applets][103][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][80][Applets][85][Applets][135]
 immutability=1
@@ -593,7 +593,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][80][Applets][85][Applets][99][Configuration]
-PreloadWeight=97
+PreloadWeight=100
 
 [Containments][80][Applets][85][Applets][99][Configuration][General]
 currentDetailsTab=details

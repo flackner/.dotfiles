@@ -346,3 +346,10 @@ _launch=Meta+Esc
 [services][systemsettings.desktop]
 kcm-kscreen=Display
 kcm-powerdevilprofilesconfig=Favorites
+
+[token_chrome_global_shortcuts]
+69C8CF6406E9AFCDF56410FC7592583A-enter-picker-mode=none,none,Create a custom filter
+69C8CF6406E9AFCDF56410FC7592583A-enter-zapper-mode=none,none,Remove an element
+F8F8B2C54ABB84178B77AD1062F857F3-enter-picker-mode=none,none,Create a custom filter
+F8F8B2C54ABB84178B77AD1062F857F3-enter-zapper-mode=none,none,Remove an element
+_k_friendly_name=xdg-desktop-portal-kde

@@ -21,7 +21,6 @@
   "editor.unicodeHighlight.invisibleCharacters": false,
   "faybcontrol.distance": 20,
   "faybcontrol.offset": 5,
-  "files.autoSave": "afterDelay",
   "git.openRepositoryInParentFolders": "never",
   "github.copilot.enable": {
     "markdown": true,
@@ -111,5 +110,7 @@
   "workbench.reduceMotion": "off",
   "workbench.startupEditor": "none",
   "github.copilot.nextEditSuggestions.fixes": false,
-  "workbench.activityBar.location": "hidden"
+  "workbench.panel.showLabels": false,
+  "workbench.secondarySideBar.showLabels": false,
+  "extensions.ignoreRecommendations": true
 }
