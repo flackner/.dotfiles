@@ -335,7 +335,7 @@ ToggleTouchpad=Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku
 _launch=Meta+)
 
 [services][sudo-2.desktop]
-_launch=Meta+H
+_launch=Meta+@
 
 [services][sudo-3.desktop]
 _launch=Meta+Backspace
