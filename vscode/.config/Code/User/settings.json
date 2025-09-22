@@ -57,10 +57,19 @@
       "command": "multiCommand.focusFirstEditorGroup",
       "sequence": [
         {
+          "command": "workbench.action.maximizeEditorHideSidebar"
+        },
+        {
           "command": "workbench.action.closePanel"
         },
         {
           "command": "workbench.action.closeSidebar"
+        },
+        {
+          "command": "workbench.action.activityBarLocation.hide"
+        },
+        {
+          "command": "workbench.action.focusAuxiliaryBar"
         },
         {
           "command": "workbench.action.focusFirstEditorGroup"
@@ -74,16 +83,45 @@
       "command": "multiCommand.focusSecondEditorGroup",
       "sequence": [
         {
+          "command": "workbench.action.maximizeEditorHideSidebar"
+        },
+        {
           "command": "workbench.action.closePanel"
         },
         {
           "command": "workbench.action.closeSidebar"
         },
         {
+          "command": "workbench.action.activityBarLocation.hide"
+        },
+        {
+          "command": "workbench.action.focusAuxiliaryBar"
+        },
+        {
           "command": "workbench.action.focusSecondEditorGroup"
         },
         {
           "command": "faybcontrol.placeCursorUp"
+        }
+      ]
+    },
+    {
+      "command": "multiCommand.focusTerminal",
+      "sequence": [
+        {
+          "command": "workbench.action.closeSidebar"
+        },
+        {
+          "command": "workbench.action.closeAuxiliaryBar"
+        },
+        {
+          "command": "workbench.action.activityBarLocation.hide"
+        },
+        {
+          "command": "workbench.action.closePanel"
+        },
+        {
+          "command": "workbench.action.toggleMaximizedPanel"
         }
       ]
     }
@@ -93,12 +131,19 @@
   "security.workspace.trust.enabled": false,
   "security.workspace.trust.untrustedFiles": "newWindow",
   "terminal.integrated.commandsToSkipShell": [
-    "language-julia.interrupt"
+    "language-julia.interrupt",
+    "workbench.action.focusSecondEditorGroup",
+    "workbench.action.focusFirstEditorGroup",
+    "workbench.action.quickOpen",
+    "workbench.action.increaseViewSize",
+    "workbench.action.decreaseViewSize"
   ],
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.env.linux": { },
   "terminal.integrated.inheritEnv": false,
   "terminal.integrated.scrollback": 1000000,
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.fontFamily": "JetBrainsMono NF",
   "window.menuBarVisibility": "toggle",
   "workbench.colorCustomizations": {
     //"editor.background": "#1e181e", // Editor background color.
@@ -112,5 +157,6 @@
   "github.copilot.nextEditSuggestions.fixes": false,
   "workbench.panel.showLabels": false,
   "workbench.secondarySideBar.showLabels": false,
-  "extensions.ignoreRecommendations": true
+  "extensions.ignoreRecommendations": true,
+  "workbench.activityBar.location": "hidden"
 }

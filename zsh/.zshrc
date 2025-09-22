@@ -145,7 +145,7 @@ alias myvpn='sudo wg-quick up wg0'
 export FZF_DEFAULT_OPTS="--preview '([[ -f {} ]] && (bat --style=numbers --color=always {} || cat {})) || ([[ -d {} ]] && (tree -C {} | less)) || echo {} 2> /dev/null | head -200'"
 export FZF_DEFAULT_COMMAND="fd --hidden --no-ignore"
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
-export FZF_ALT_C_COMMAND="fd -t d --hidden --no-ignore"
+export FZF_ALT_C_COMMAND="fd -t d --no-ignore"
 export FZF_CTRL_R_OPTS="--preview 'echo {}' --preview-window down:3:hidden:wrap --bind '?:toggle-preview'"
 export FZF_TMUX=1
 
@@ -181,12 +181,6 @@ c() {
 }
 
 compdef _cd c # use the default compilation for cd
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/home/fabian/google-cloud-sdk/path.zsh.inc' ]; then . '/home/fabian/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/home/fabian/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/fabian/google-cloud-sdk/completion.zsh.inc'; fi
 
 # >>> juliaup initialize >>>
 
