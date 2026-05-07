@@ -1,0 +1,23 @@
+return {
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      servers = {
+        fortls = {
+          cmd = {
+            vim.fn.expand("~/.local/bin/fortls"),
+          },
+        },
+      },
+    },
+  },
+  {
+    "nvim-treesitter/nvim-treesitter",
+    opts = function(_, opts)
+      opts.ensure_installed = opts.ensure_installed or {}
+      if not vim.tbl_contains(opts.ensure_installed, "fortran") then
+        table.insert(opts.ensure_installed, "fortran")
+      end
+    end,
+  },
+}

@@ -1,0 +1,96 @@
+{
+  // ==========================================
+  // 1. CORE EDITOR SETTINGS
+  // ==========================================
+  "editor.fontFamily": "JetBrainsMono NF",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.minimap.enabled": false,
+  "editor.quickSuggestions": {
+    "comments": false,
+    "other": false,
+    "strings": false
+  },
+  "editor.rename.enablePreview": false,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.smoothScrolling": true,
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "json.format.keepLines": true,
+
+  // ==========================================
+  // 2. WORKBENCH & UI SETTINGS
+  // ==========================================
+  "window.menuBarVisibility": "toggle",
+  "workbench.colorTheme": "faybtheme_violet",
+  "workbench.colorCustomizations": { },
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.revealIfOpen": false,
+  "workbench.editor.showTabs": "none",
+  "workbench.reduceMotion": "off",
+  "workbench.startupEditor": "none",
+  "workbench.panel.showLabels": false,
+  "workbench.secondarySideBar.showLabels": false,
+  "search.searchEditor.defaultNumberOfContextLines": 0,
+
+  // ==========================================
+  // 3. TERMINAL SETTINGS
+  // ==========================================
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.env.linux": { },
+  "terminal.integrated.fontFamily": "JetBrainsMono NF",
+  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.scrollback": 1000000,
+  "terminal.integrated.commandsToSkipShell": [
+    "language-julia.interrupt",
+    "workbench.action.focusSecondEditorGroup",
+    "workbench.action.focusFirstEditorGroup",
+    "workbench.action.quickOpen",
+    "workbench.action.increaseViewSize",
+    "workbench.action.decreaseViewSize",
+    "multiCommand.focusFirstEditorGroupFast",
+    "multiCommand.focusSecondEditorGroupFast"
+  ],
+
+  // ==========================================
+  // 4. LANGUAGE & EXTENSION SETTINGS
+  // ==========================================
+  "python.analysis.typeCheckingMode": "standard",
+  "python.languageServer": "Pylance",
+
+  "C_Cpp.inactiveRegionForegroundColor": "#8B8772",
+  "cmake.configureOnOpen": false,
+  "cmake.generator": "Unix Makefiles",
+
+  "julia.enableTelemetry": false,
+  "julia.symbolCacheDownload": true,
+
+  "github.copilot.enable": {
+    "markdown": true,
+    "plaintext": true,
+    "scminput": true
+  },
+  "github.copilot.nextEditSuggestions.fixes": false,
+
+  "git.openRepositoryInParentFolders": "never",
+  "extensions.ignoreRecommendations": true,
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+
+  // ==========================================
+  // 5. LANGUAGE-SPECIFIC OVERRIDES
+  // ==========================================
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  },
+  "github.copilot.nextEditSuggestions.enabled": false
+}
