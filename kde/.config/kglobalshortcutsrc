@@ -303,13 +303,16 @@ toggle do not disturb=none,,Toggle do not disturb
 _launch=Meta+"
 
 [services][com.mitchellh.ghostty.desktop]
-_launch=Meta+§
+_launch=none
 
 [services][google-chrome.desktop]
 _launch=Meta+!
 
 [services][net.local.flameshot.desktop]
 _launch=Ctrl+Alt+H
+
+[services][net.local.ghostty.desktop]
+_launch=Meta+§
 
 [services][net.local.google-chrome-2.desktop]
 _launch=Meta+Ö

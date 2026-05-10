@@ -25,7 +25,7 @@
   // 2. WORKBENCH & UI SETTINGS
   // ==========================================
   "window.menuBarVisibility": "toggle",
-  "workbench.colorTheme": "faybtheme_violet",
+  "workbench.colorTheme": "QCD Theme",
   "workbench.colorCustomizations": { },
   "workbench.editor.enablePreview": false,
   "workbench.editor.revealIfOpen": false,
@@ -92,5 +92,9 @@
       "source.organizeImports": "explicit"
     }
   },
-  "github.copilot.nextEditSuggestions.enabled": false
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "famakctl.distance": 3,
+  "famakctl.offset": 10,
+  "famakctl.scrollDistance": 20,
+  "kineticScroll.initialStepLines": 1
 }

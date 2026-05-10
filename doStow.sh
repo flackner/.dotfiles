@@ -8,7 +8,14 @@ if ! command -v stow >/dev/null 2>&1; then
   exit 1
 fi
 
-packages=(git tmux zsh vscode mc kde nvim ghostty)
+if [[ -n "$(git status --porcelain)" ]]; then
+  echo "Refusing to run doStow.sh: git working tree is not clean."
+  echo "Commit, stash, or discard changes first."
+  git --no-pager status --short
+  exit 1
+fi
+
+packages=(git tmux zsh vscode mc kde nvim ghostty yazi)
 backup_root=".stow-adopt-backups/$(date +%Y%m%d-%H%M%S)"
 mkdir -p "$backup_root"
 

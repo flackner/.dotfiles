@@ -1,0 +1,8 @@
+[mgr]
+prepend_keymap = [
+  { on = "h", run = "noop", desc = "Disable default leave on h" },
+  { on = "l", run = "noop", desc = "Disable default enter on l" },
+  { on = "<C-Left>", run = "leave", desc = "Leave the current directory" },
+  { on = "<C-Right>", run = "enter", desc = "Enter hovered directory" },
+  { on = "<C-t>", run = "tab_create --current", desc = "Create a new tab" },
+]

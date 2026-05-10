@@ -35,6 +35,19 @@ apt_install_if_available() {
   fi
 }
 
+apt_install_any_available() {
+  local package_name
+
+  for package_name in "$@"; do
+    if apt-cache show "$package_name" >/dev/null 2>&1; then
+      sudo apt-get install -y "$package_name"
+      return 0
+    fi
+  done
+
+  echo "None of these packages were found in enabled apt sources: $*"
+}
+
 ensure_nvim_path_in_file() {
   local file_path="$1"
   local nvim_bin_path="/opt/nvim-linux-x86_64/bin"
@@ -82,12 +95,28 @@ install_jetbrainsmono_nerd_font() {
   rm -rf "$temp_dir"
 }
 
+install_zoxide() {
+  curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
+}
+
 sudo apt-get update
 sudo apt-get install -y \
   git curl gnupg ca-certificates \
   stow zsh ripgrep fd-find bat fontconfig unzip \
   tmux mc
 
+apt_install_if_available yazi
+apt_install_if_available ffmpeg
+apt_install_any_available 7zip p7zip-full p7zip
+apt_install_if_available jq
+apt_install_any_available poppler-utils poppler
+apt_install_if_available fzf
+apt_install_if_available resvg
+apt_install_any_available imagemagick imagemagick-7
+apt_install_if_available wl-clipboard
+apt_install_if_available xclip
+apt_install_if_available xsel
+apt_install_if_available btop
 apt_install_if_available eza
 apt_install_if_available ghostty
 apt_install_if_available flameshot
@@ -115,6 +144,8 @@ fi
 
 sync_repo "$HOME/.fzf" "https://github.com/junegunn/fzf.git" --depth 1
 "$HOME/.fzf/install" --all --no-bash --no-fish
+
+install_zoxide
 
 sync_repo "$HOME/.tmux/plugins/tpm" "https://github.com/tmux-plugins/tpm"
 

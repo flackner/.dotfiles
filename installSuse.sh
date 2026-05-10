@@ -35,6 +35,19 @@ zypper_install_if_available() {
   fi
 }
 
+zypper_install_any_available() {
+  local package_name
+
+  for package_name in "$@"; do
+    if sudo zypper -n info "$package_name" >/dev/null 2>&1; then
+      sudo zypper -n install "$package_name"
+      return 0
+    fi
+  done
+
+  echo "None of these packages were found in enabled zypper repos: $*"
+}
+
 ensure_nvim_path_in_file() {
   local file_path="$1"
   local nvim_bin_path="/opt/nvim-linux-x86_64/bin"
@@ -82,9 +95,26 @@ install_jetbrainsmono_nerd_font() {
   rm -rf "$temp_dir"
 }
 
+install_zoxide() {
+  curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
+}
+
 sudo zypper -n install \
   git curl stow zsh eza ripgrep fd bat fontconfig unzip \
   tmux mc
+
+zypper_install_if_available yazi
+zypper_install_if_available ffmpeg
+zypper_install_any_available 7zip p7zip
+zypper_install_if_available jq
+zypper_install_any_available poppler-tools poppler-utils poppler
+zypper_install_if_available fzf
+zypper_install_if_available resvg
+zypper_install_any_available ImageMagick imagemagick
+zypper_install_if_available wl-clipboard
+zypper_install_if_available xclip
+zypper_install_if_available xsel
+zypper_install_if_available btop
 
 install_neovim_archive
 ensure_nvim_path_in_file "$HOME/.zshrc"
@@ -112,6 +142,8 @@ fi
 
 sync_repo "$HOME/.fzf" "https://github.com/junegunn/fzf.git" --depth 1
 "$HOME/.fzf/install" --all --no-bash --no-fish
+
+install_zoxide
 
 sync_repo "$HOME/.tmux/plugins/tpm" "https://github.com/tmux-plugins/tpm"
 
