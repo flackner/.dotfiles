@@ -108,7 +108,7 @@ install_gh() {
 }
 
 install_starship() {
-  curl -sS https://starship.rs/install.sh | sh -s -- -y
+  curl -sS https://starship.rs/install.sh | sh
 }
 
 sudo apt-get update

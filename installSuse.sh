@@ -95,20 +95,7 @@ install_jetbrainsmono_nerd_font() {
   rm -rf "$temp_dir"
 }
 
-install_zoxide() {
-  curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
-}
 
-install_gh() {
-  sudo rpm --import https://cli.github.com/packages/githubcli-archive-keyring.gpg
-  sudo zypper -n addrepo https://cli.github.com/packages/rpm stable
-  sudo zypper -n refresh
-  sudo zypper -n install gh
-}
-
-install_starship() {
-  curl -sS https://starship.rs/install.sh | sh -s -- -y
-}
 
 sudo zypper -n install \
   git curl stow zsh eza ripgrep fd bat fontconfig unzip \
@@ -133,10 +120,8 @@ zypper_install_if_available duf
 zypper_install_if_available dust
 zypper_install_if_available zellij
 zypper_install_if_available starship
+zypper_install_if_available zoxide
 zypper_install_if_available gh
-
-install_gh || true
-install_starship || true
 
 install_neovim_archive
 ensure_nvim_path_in_file "$HOME/.zshrc"
@@ -163,8 +148,6 @@ fi
 
 sync_repo "$HOME/.fzf" "https://github.com/junegunn/fzf.git" --depth 1
 "$HOME/.fzf/install" --all --no-bash --no-fish
-
-install_zoxide
 
 sync_repo "$HOME/.tmux/plugins/tpm" "https://github.com/tmux-plugins/tpm"
 
