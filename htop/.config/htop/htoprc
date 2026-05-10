@@ -1,0 +1,14 @@
+# htop configuration
+# This is a basic htop config - feel free to customize
+
+# Enable mouse support
+enable_mouse=1
+
+# Show process threads
+show_threads=1
+
+# Sort by CPU by default
+sort_key=46
+
+# Show the tree view
+tree_view=0

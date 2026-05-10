@@ -99,6 +99,17 @@ install_zoxide() {
   curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 }
 
+install_gh() {
+  sudo rpm --import https://cli.github.com/packages/githubcli-archive-keyring.gpg
+  sudo zypper -n addrepo https://cli.github.com/packages/rpm stable
+  sudo zypper -n refresh
+  sudo zypper -n install gh
+}
+
+install_starship() {
+  curl -sS https://starship.rs/install.sh | sh -s -- -y
+}
+
 sudo zypper -n install \
   git curl stow zsh eza ripgrep fd bat fontconfig unzip \
   tmux mc
@@ -115,6 +126,17 @@ zypper_install_if_available wl-clipboard
 zypper_install_if_available xclip
 zypper_install_if_available xsel
 zypper_install_if_available btop
+zypper_install_if_available lazygit
+zypper_install_if_available lazydocker
+zypper_install_if_available htop
+zypper_install_if_available duf
+zypper_install_if_available dust
+zypper_install_if_available zellij
+zypper_install_if_available starship
+zypper_install_if_available gh
+
+install_gh || true
+install_starship || true
 
 install_neovim_archive
 ensure_nvim_path_in_file "$HOME/.zshrc"
@@ -124,7 +146,6 @@ install_jetbrainsmono_nerd_font
 zypper_install_if_available ghostty
 zypper_install_if_available flameshot
 zypper_install_if_available httpie
-zypper_install_if_available lazygit
 
 sync_repo "$HOME/.oh-my-zsh" "https://github.com/ohmyzsh/ohmyzsh.git"
 

@@ -1,0 +1,16 @@
+# Starship prompt configuration
+format = """
+[┌───────────────>](bold green)
+[│](bold green) $directory$git_branch$git_status
+[└─>](bold green) """
+
+command_timeout = 500
+
+[directory]
+truncation_length = 3
+
+[git_branch]
+symbol = " "
+
+[git_status]
+symbol = "🔃 "

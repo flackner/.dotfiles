@@ -99,6 +99,18 @@ install_zoxide() {
   curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 }
 
+install_gh() {
+  curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/etc/apt/trusted.gpg.d/githubcli-archive-keyring.gpg
+  echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/trusted.gpg.d/githubcli-archive-keyring.gpg] https://cli.github.com/packages focal main" \
+    | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+  sudo apt-get update
+  sudo apt-get install -y gh
+}
+
+install_starship() {
+  curl -sS https://starship.rs/install.sh | sh -s -- -y
+}
+
 sudo apt-get update
 sudo apt-get install -y \
   git curl gnupg ca-certificates \
@@ -122,6 +134,16 @@ apt_install_if_available ghostty
 apt_install_if_available flameshot
 apt_install_if_available httpie
 apt_install_if_available lazygit
+apt_install_if_available lazydocker
+apt_install_if_available htop
+apt_install_if_available duf
+apt_install_if_available dust
+apt_install_if_available zellij
+apt_install_if_available starship
+apt_install_if_available gh
+
+install_gh || true
+install_starship || true
 
 install_neovim_archive
 ensure_nvim_path_in_file "$HOME/.zshrc"

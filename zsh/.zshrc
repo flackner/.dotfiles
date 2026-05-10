@@ -1,5 +1,10 @@
 export PATH=$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin:/opt/nvim-linux-x86_64/bin
 
+# Starship prompt initialization
+if command -v starship >/dev/null 2>&1; then
+  eval "$(starship init zsh)"
+fi
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -143,6 +148,9 @@ alias dots='/usr/bin/git --git-dir=/home/fabian/.dots/ --work-tree=/home/fabian'
 alias xc='xclip -selection clipboard'
 alias myvpn='sudo wg-quick up wg0'
 alias mc="COLORTERM=truecolor mc -S faybtheme"
+alias lg="lazygit"
+alias lzd="lazydocker"
+alias ht="htop"
 #pseudo alias grep="rg"
 #pseudo alias find="fd"
 #pseudo alias man="tldr"
@@ -194,6 +202,17 @@ c() {
 }
 
 compdef _cd c # use the default compilation for cd
+
+mux() {
+  if command -v zellij >/dev/null 2>&1; then
+    zellij
+  elif command -v tmux >/dev/null 2>&1; then
+    tmux
+  else
+    echo "Neither zellij nor tmux is installed"
+    return 1
+  fi
+}
 
 # >>> juliaup initialize >>>
 
