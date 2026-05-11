@@ -122,7 +122,6 @@ apt_install_if_available ffmpeg
 apt_install_any_available 7zip p7zip-full p7zip
 apt_install_if_available jq
 apt_install_any_available poppler-utils poppler
-apt_install_if_available fzf
 apt_install_if_available resvg
 apt_install_any_available imagemagick imagemagick-7
 apt_install_if_available wl-clipboard

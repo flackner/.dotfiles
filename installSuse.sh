@@ -106,7 +106,6 @@ zypper_install_if_available ffmpeg
 zypper_install_any_available 7zip p7zip
 zypper_install_if_available jq
 zypper_install_any_available poppler-tools poppler-utils poppler
-zypper_install_if_available fzf
 zypper_install_if_available resvg
 zypper_install_any_available ImageMagick imagemagick
 zypper_install_if_available wl-clipboard
