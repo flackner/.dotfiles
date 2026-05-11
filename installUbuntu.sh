@@ -141,6 +141,8 @@ apt_install_if_available dust
 apt_install_if_available zellij
 apt_install_if_available starship
 apt_install_if_available gh
+apt_install_if_available meld
+apt_install_if_available kdiff3
 
 install_gh || true
 install_starship || true

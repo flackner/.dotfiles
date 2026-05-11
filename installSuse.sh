@@ -122,6 +122,8 @@ zypper_install_if_available zellij
 zypper_install_if_available starship
 zypper_install_if_available zoxide
 zypper_install_if_available gh
+zypper_install_if_available meld
+zypper_install_if_available kdiff3
 
 install_neovim_archive
 ensure_nvim_path_in_file "$HOME/.zshrc"
