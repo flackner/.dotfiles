@@ -162,10 +162,6 @@ sync_repo "$zsh_custom/plugins/zsh-syntax-highlighting" "https://github.com/zsh-
 sync_repo "$zsh_custom/plugins/zsh-completions" "https://github.com/zsh-users/zsh-completions"
 sync_repo "$zsh_custom/plugins/fast-syntax-highlighting" "https://github.com/zdharma-continuum/fast-syntax-highlighting.git"
 
-if [[ "$(basename "${SHELL:-}")" != "zsh" ]]; then
-  chsh -s "$(command -v zsh)"
-fi
-
 sync_repo "$HOME/.fzf" "https://github.com/junegunn/fzf.git" --depth 1
 "$HOME/.fzf/install" --all --no-bash --no-fish
 
